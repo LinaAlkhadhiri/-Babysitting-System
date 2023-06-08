@@ -1,0 +1,686 @@
+/*[Lina.1]Home Page*/
+.login{
+	left: 500px;
+	position: relative;
+	float: left;
+	margin-top: 70px;
+	padding-right: 45px;
+	padding-left: 45px;
+	color: #515151;
+	border: none;
+    border-radius: 20px;
+    box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	background-color: #A5B2A1;
+	outline: none;
+	display: inline-block;
+	cursor:pointer;
+	text-align: center;
+	text-decoration:none ;
+}
+
+#writetext1{
+	position: absolute;
+	margin: 18% 6%;
+	font-weight: bold;
+	font-size: 35pt;
+	color: #515151;
+}
+
+#writepar{
+	position: absolute;
+	margin: 23% 6%;
+	font-size: 18pt;
+	color: #515151;
+}
+
+#writetext2{
+	position: absolute;
+	margin: 50% 6%;
+	font-weight: bold;
+	font-size: 35pt;
+	color: #515151;
+}
+
+.revForm1{
+	position: absolute;
+	display: grid;
+	text-align: center;
+	place-content : center;
+    justify-items:  center;
+    align-items: center;
+	background-color: #ECB78B;
+    border-radius: 20px;
+	height:  15vh;
+    width: 50vh;
+    margin: 56% 6%;
+	z-index:  1;
+	box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#revName1{
+	position: absolute;
+	top: 20px;
+	font-weight: bolder;
+	color: #515151;
+	text-align: left;
+	left: 10px;
+}
+
+#rev1{
+	position: absolute;
+	top: 50px;
+	color: #515151;
+	font-weight: 700;
+	text-align: left;
+	left: 10px;
+}
+
+.revForm2{
+	position: absolute;
+	display: grid;
+	text-align: center;
+	place-content : center;
+    justify-items:  center;
+    align-items: center;
+	background-color: #ECB78B;
+    border-radius: 20px;
+	height:  15vh;
+    width: 50vh;
+    margin: 66% 6%;
+	z-index:  1;
+	box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#revName2{
+	position: absolute;
+	top: 20px;
+	font-weight: bolder;
+	color: #515151;
+	text-align: left;
+	left: 10px;
+}
+
+#rev2{
+	position: absolute;
+	top: 50px;
+	color: #515151;
+	font-weight: 700;
+	text-align: left;
+	left: 10px;
+}
+
+.revForm3{
+	position: absolute;
+	display: grid;
+	text-align: center;
+	place-content : center;
+    justify-items:  center;
+    align-items: center;
+	background-color: #ECB78B;
+    border-radius: 20px;
+	height:  15vh;
+    width: 50vh;
+    margin: 76% 6%;
+	z-index:  1;
+	box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#revName3{
+	position: absolute;
+	top: 20px;
+	font-weight: bolder;
+	color: #515151;
+	text-align: left;
+	left: 10px;
+}
+
+#rev3{
+	position: absolute;
+	top: 50px;
+	color: #515151;
+	font-weight: 700;
+	text-align: left;
+	left: 10px;
+}
+
+
+
+#writetext3{
+	position: absolute;
+	margin-top: 32%;
+	margin-left: 55%;
+	font-weight: bold;
+	font-size: 35pt;
+	text-align: center;
+	color: #515151;
+}
+
+#MainPagePic{
+	margin-top: 45%;
+	margin-left: 58%;
+	width: 300px;
+	height: 600px;
+	left: 900px;
+	bottom: 350px;
+	z-index: 10;
+ } 
+
+/*[Lina.2]Login Page*/
+.loginform{
+	position: absolute;
+	display: grid;
+	text-align: center;
+	place-content : center;
+    justify-items:  center;
+    align-items: center;
+	background-color: #ECB78B;
+    border-radius: 45px;
+	height:  80vh;
+    width: 90vh;
+	left: 380px;
+    top: 350px;
+	z-index:  1;
+	box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.loginform h1{
+	font-weight: bolder;
+	font-size: 50pt;
+	padding-top: 50px;
+	font-family: fantasy;
+	color: #515151;
+}
+.loginform .user-details0{
+	display: inline;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 30px 0px 12px 35px;
+}
+
+.loginform .user-details0 .input-box0{
+	margin-top: 15px;
+	width: calc(100% / 2 - 20px);
+}
+
+.user-details0 .input-box0 .details0{
+	display: block;
+	font-weight: 700;
+	margin-bottom: 1px;
+	color: #515151;
+	font-size: 20px;
+	margin-right: 70px;
+}
+
+.user-details0 .input-box0 input{
+	background-color:#dbdcd8 ;
+	outline: none;
+	padding: 10px 40px;
+	padding-left: 15px;
+	font-size: 15px;
+	text-align: left;
+	margin-top: 1px;
+	text-decoration:none ;
+	color:#515151;
+	border: 1px solid #dbdcd8;
+    border-radius: 20px;
+	position: relative;
+    right: 8px;
+    font-family: fantasy;
+	width: 280px;
+	place-content : center;
+    justify-items:  center;
+    align-items: center;
+	transition: all 0.3s ease;
+}
+
+#logbut{
+	background-color:#A5B2A1 ;
+	outline: none;
+    padding: 20px 50px;
+	display: inline-block;
+    cursor:pointer;
+    font-size: 20px;
+	font-weight: bolder;
+    text-align: center;
+	margin-top: 10px;
+    text-decoration:none ;
+    color:#515151;
+	border: none;
+    border-radius: 20px;
+	box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	position: relative;
+    right: 10px;
+    font-family: fantasy;
+}
+
+.linegreen{
+text-decoration:underline;
+}
+
+.linegreen:hover{
+	color: #A5B2A1;
+text-decoration:underline;
+
+}
+
+/*[Lina.3]Are You S or P Page*/
+.SignUPform{
+	position: absolute;
+	display: grid;
+	text-align: center;
+	place-content : center;
+    justify-items:  center;
+    align-items: center;
+	background-color: #ECB78B;
+    border-radius: 45px;
+	height:  80vh;
+    width: 90vh;
+	left: 380px;
+    top: 350px;
+	z-index:  1;
+	box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+#PagePic{
+	position: absolute;
+    display: grid;
+    width: 300px;
+    height: 600px;
+    left: 950px;
+    top: 390px;
+    z-index: 10;
+}
+
+.SignUPform h1{
+	font-weight: bolder;
+	font-size: 50pt;
+	margin-top: 20px;
+	font-family: fantasy;
+	color: #515151;
+}
+
+#buttonChoice{
+	background-color:#A5B2A1 ;
+    outline: none;
+    padding: 25px 50px;
+    display: inline-block;
+    cursor:pointer;
+    font-size: 20px;
+	font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration:none ;
+    outline: none;
+    color:#515151;
+    border: none;
+    border-radius: 20px;
+    box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    right: 10px;
+    font-family: fantasy;
+	width: 300px;
+}
+
+/*Sign Up Parent page*/
+.container1{
+	position: absolute;
+	display: grid;
+	text-align: left;
+	place-content : center;
+    justify-items:  left;
+    align-items: center;
+	background-color: #ECB78B;
+    border-radius: 45px;
+	height:  95vh;
+    width: 100vh;
+	left: 300px;
+    top: 350px;
+	z-index:  1;
+	box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container1 .title{
+	font-size: 30px;
+	font-weight: bolder;
+	padding-left: 5px;
+	position: relative;
+	color: #515151;
+}
+
+.container1 .title::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 35px;
+	background: #515151;
+}
+
+.profile-pic{
+	height: 190px;
+	width: 190px;
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 50%;
+	overflow: hidden;
+	border: 2px solid #A5B2A1;/**/
+}
+
+#userphoto{
+	height: 100%;
+	width: 100%;
+}
+
+#uploadBtn{
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	background: rgba(0, 0, 0, 0.8);
+	color: #dbdcd8;
+	line-height: 30px;
+	font-size: 15px;
+	cursor: pointer;
+}
+#uploadBtn:hover{
+    color: #ECB78B;
+}
+
+.container1 form .user-details{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 230px 0px 12px 35px;
+}
+
+form .user-details .input-box{
+	margin-top: 15px;
+	width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box .details{
+	display: block;
+	font-weight: 700;
+	margin-bottom: 1px;
+	color: #515151;
+	font-size: 20px;
+}
+
+.user-details .input-box input{
+	background-color:#dbdcd8 ;
+	outline: none;
+	padding: 10px 40px;
+	padding-left: 15px;
+	display: inline-block;
+	font-size: 15px;
+	text-align: left;
+	margin-top: 1px;
+	text-decoration:none ;
+	color:#515151;
+	border: 1px solid #dbdcd8;
+    border-radius: 20px;
+	position: relative;
+    right: 8px;
+    font-family: fantasy;
+	width: 280px;
+	place-content : center;
+    justify-items:  center;
+    align-items: center;
+	transition: all 0.3s ease;
+}
+
+#file{
+	display: none;
+}
+
+#loc-icon{
+	width: 0.75em;
+}
+#get-loc{
+	background-color:#dbdcd8 ;
+    outline: none;
+    padding: 10px 40px;
+	padding-left: 15px;
+    display: inline-block;
+    cursor:pointer;
+    font-size: 15px;
+	font-weight: 700;
+    text-align: left;
+    margin-top: 2px;
+    text-decoration:none ;
+    color:#515151;
+    border: 1px solid #dbdcd8;
+    border-radius: 20px;
+    box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    right: 8px;
+    font-family: fantasy;
+	width: 330px;
+	border-bottom-width: 2px;
+	transition: all 0.3s ease;
+}
+
+form .button {
+	background-color:#A5B2A1 ;
+	outline: none;
+    padding: 20px 50px;
+	display: inline-block;
+    cursor:pointer;
+    font-size: 20px;
+	font-weight: bolder;
+	margin-top: 50px;
+	margin-left: 300px;
+    text-decoration:none ;
+    color:#515151;
+	border: none;
+    border-radius: 20px;
+	box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	position: relative;
+    font-family: fantasy;
+	letter-spacing: 1px;
+	place-content : center;
+    justify-items:  center;
+    align-items: center;
+}
+
+
+input[type="file"]{
+	display: none;
+}
+
+
+/*Sign Up Sitter page*/
+
+.container2{
+	position: absolute;
+	display: grid;
+	text-align: left;
+	place-content : center;
+    justify-items:  left;
+    align-items: center;
+	background-color: #ECB78B;
+    border-radius: 45px;
+	height:  120vh;
+    width: 100vh;
+	left: 300px;
+    top: 350px;
+	z-index:  1;
+	box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container2 .title{
+	font-size: 30px;
+	font-weight: bolder;
+	padding-left: 5px;
+	position: relative;
+	color: #515151;
+}
+
+.container2 .title::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 35px;
+	background: #515151;
+}
+
+.container2 form .user-details2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 230px 0px 12px 35px;
+	font-size: 20px;
+}
+
+.profile-pic2{
+	height: 190px;
+	width: 190px;
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 50%;
+	overflow: hidden;
+	border: 2px solid #A5B2A1;/**/
+}
+
+#userphoto2{
+	height: 100%;
+	width: 100%;
+}
+
+#uploadBtn2{
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	background: rgba(0, 0, 0, 0.8);
+	color: #dbdcd8;
+	line-height: 30px;
+	font-size: 15px;
+	cursor: pointer;
+}
+#uploadBtn2:hover{
+    color: #ECB78B;
+}
+
+form .user-details2 .input-box2{
+	margin-top: 15px;
+	width: calc(100% / 2 - 20px);
+}
+
+.user-details2 .input-box2 .details2{
+	display: block;
+	font-weight: 700;
+	margin-bottom: 1px;
+	color: #515151;
+	font-size: 20px;
+}
+
+.user-details2 .input-box2 input{
+	background-color:#dbdcd8 ;
+	outline: none;
+	padding: 10px 40px;
+	padding-left: 15px;
+	display: inline-block;
+	font-size: 15px;
+	text-align: left;
+	margin-top: 1px;
+	text-decoration:none ;
+	color:#515151;
+	border: 1px solid #dbdcd8;
+    border-radius: 20px;
+	position: relative;
+    right: 8px;
+    font-family: fantasy;
+	width: 280px;
+	place-content : center;
+    justify-items:  center;
+    align-items: center;
+	transition: all 0.3s ease;
+}
+
+
+form .button2 {
+	background-color:#A5B2A1 ;
+	outline: none;
+    padding: 20px 50px;
+	display: inline-block;
+    cursor:pointer;
+    font-size: 20px;
+	font-weight: bolder;
+	margin-top: 3px;
+	margin-left: 280px;
+    text-decoration:none ;
+    color:#515151;
+	border: none;
+    border-radius: 20px;
+	box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	position: relative;
+    font-family: fantasy;
+	letter-spacing: 1px;
+	place-content : center;
+    justify-items:  center;
+    align-items: center;
+}
+
+.button_2 {
+	background-color:#A5B2A1 ;
+	outline: none;
+    padding: 20px 50px;
+	display: inline-block;
+    cursor:pointer;
+    font-size: 20px;
+	font-weight: bolder;
+	margin-top: 3px;
+	margin-left: 280px;
+    text-decoration:none ;
+    color:#515151;
+	border: none;
+    border-radius: 20px;
+	box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	position: relative;
+    font-family: fantasy;
+	letter-spacing: 1px;
+	place-content : center;
+    justify-items:  center;
+    align-items: center;
+}
+
+.input_field{
+	margin-bottom: 15px;
+	display: block;
+	align-items: center;
+	padding: 20px 50px;
+	padding-left: 3px;
+	font-weight: 700;
+	color: #515151;
+	font-size: 20px;
+}
+
+.sitterBio{
+	font-size: 20px;
+	padding: 15px 50px;
+	padding-right: 80px;
+	font-weight: 700;
+	color: #515151;
+}
+#bio{
+	border-radius: 20px;
+	background-color: #dbdcd8;
+	color: #515151;
+	font-family: fantasy;
+	border: 1px solid #dbdcd8;
+	border-bottom-width: 2px;
+	font-size: 15px;
+}

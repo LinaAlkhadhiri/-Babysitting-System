@@ -1,0 +1,632 @@
+/*main page*/
+* {
+
+    margin:  0;
+    padding:  0;
+   
+   }
+/*header*/
+body {
+
+    /* Leena's */
+ 
+     min-height:  100vh ;
+     background-image: url('Images/wall.png'); 
+     background-size: cover;
+     background-repeat: no-repeat;
+     
+     font-family: fantasy;
+ }
+ 
+ #logo{
+     position: absolute;
+     width: 300px;
+     height: 100px;
+     margin-top: 50px;
+     margin-left: 100px;
+ }
+ 
+ .top{
+     left: 430px;
+     position: relative;
+     float: left;
+     margin-top: 70px;
+     padding-right: 50px;
+     padding-left: 50px;
+     font-family: fantasy;
+     color: #515151;
+     }
+
+     .line{
+        color: #515151;
+        text-decoration:none;
+        text-align:center;   
+    }
+    .line:hover {
+        color:#EAB789;
+    }
+
+    
+
+    /*footer*/
+    #pic2{
+        position: absolute;
+        left: 6px;
+        top: 207%;
+        width: 100%;
+        padding-bottom: 2px;
+    }
+    #footer {
+        
+        background-color: #EAE8E3;
+        color:#515151 ;
+        position : sticky;
+        height: 150px;
+        text-align: center;
+        margin-top: 100%;
+
+
+    }
+    .social-icon{
+
+        padding: 20px 30px;
+         
+     
+     }
+     .bottom{
+        left: 80px;
+        position: relative;
+        float: left;
+        padding-right: 155px;
+        padding-left: 155px;
+        font-family: fantasy;
+        color: #515151;
+        margin-top: 25px;
+        
+    }
+    .copyright{
+      
+position: relative;
+align-items: center;
+text-align: center;
+letter-spacing: 0.13em;
+margin-left: 400px;
+margin-top: 30px;
+color: #515151;
+
+
+
+        }
+
+
+
+
+        /* Ahad's */
+ 
+    .top:hover .dropdown-content {
+        display: block;
+      }
+
+    .top:not(:first-of-type):hover,#active:hover{
+
+        color:#EAB789;
+        
+      }
+
+      a{
+        text-decoration: none;
+        color: #515151;
+      }
+
+
+
+    .dropdown-content {
+        display: none;
+        list-style: none;
+        width: 120px;
+        position: absolute;
+        top: 35px;
+        background-color: #A5B2A1;
+        border-radius: 5px;
+        padding: 0px;
+      }
+      .dropdown-content li {
+        padding: 4px 10px;
+        font-size: 20px;
+        border-bottom: 1px solid #BEDCDB;
+      }
+
+      .dropdown-content li a:hover { color:#EAB789;}
+
+
+
+
+        /*request details*/
+
+       .requestdetails{
+
+        position: relative;
+        display: grid;
+        place-content : center;
+        justify-items:  center;
+        align-items: center;
+        background-color: #ECB78B;
+        border-radius: 45px;
+        height:  130vh;
+        width: 100vh;
+        left: 340px;
+        top: 270px;
+        z-index:  1;
+        box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+        
+        
+       
+
+       }
+
+       .offerdetails{
+
+        position: relative;
+        display: grid;
+        place-content : center;
+        justify-items:  center;
+        align-items: center;
+        background-color: #ECB78B;
+        border-radius: 45px;
+        height:  200vh;
+        width: 100vh;
+        left: 340px;
+        top: 270px;
+        z-index:  1;
+        box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+        
+        
+       
+
+       }
+
+
+
+     
+
+        #title1{
+           
+                font-size: 20px;
+                font-family: fantasy;
+                color: #515151;
+                text-align: center;
+                font-weight: bolder;
+                position: absolute;
+                top: -45px;
+                left: 235px;
+                background-color: #ECB78B;
+                border-radius: 5px;
+                width: 40%;
+                
+                
+            
+                
+                
+                
+        }
+
+        #parent-photo{
+
+            border: 5px solid #e8c6ae;
+            padding: 5px;
+            width: 150px;
+            position: absolute;
+            
+            top: 30px;
+            left: 40px;
+            
+           
+
+
+
+        }
+
+        #babysitter-photo{
+
+            border: 5px solid #e8c6ae;
+            padding: 5px;
+            width: 150px;
+            position: absolute;
+            
+            top: 30px;
+            left: 300px;
+            
+           
+
+
+
+        }
+
+        h3{
+            position: relative;
+            top: -10px;
+            left: 0px;
+            font-size: 20px;
+            letter-spacing: 3px;
+            line-height: -2px;
+            color: #515151;
+            background-color: #e8c6ae;
+            border-radius: 100px;
+            height:  5vh;
+            width: 44vh;
+            z-index:  2;
+            text-align: center;
+            margin: 3%;
+            
+           
+            
+          
+        }
+        #babysitter-name{
+            position: relative;
+            top: -40px;
+            left: -5px;
+            font-size: 25px;
+            letter-spacing: 3px;
+            line-height: -2px;
+            color: #515151;
+            background-color:  #e8c6ae;
+            border-radius: 100px;
+            height:  5vh;
+            width: 44vh;
+            z-index:  2;
+            text-align: center;
+            margin: 3%;
+
+        }
+
+        #babysitter-profilename{
+
+            position: relative;
+            top: -250px;
+            left: -5px;
+            font-size: 25px;
+            letter-spacing: 3px;
+            line-height: -2px;
+            color: #515151;
+            background-color:  #e8c6ae;
+            border-radius: 100px;
+            height:  5vh;
+            width: 44vh;
+            z-index:  2;
+            text-align: center;
+            margin: 3%;
+
+
+
+
+        }
+  
+
+        span{
+            
+            color:#8d8d8d;
+            
+            
+          
+           
+            
+
+        }
+
+        h4{
+            position: relative;
+            top: 200px;
+            left: 5px;
+            font-size: 25px;
+            color: #515151;
+            text-align: center;
+            font-weight: bolder;
+            background-color: #e8c6ae;
+            border-radius: 10px;
+            width: 90vh;
+           
+            
+
+        }
+        #babysitter-offertitle{
+            position: relative;
+            top: 250px;
+            left: 5px;
+            font-size: 25px;
+            color: #515151;
+            text-align: center;
+            font-weight: bolder;
+            background-color: #e8c6ae;
+            border-radius: 10px;
+            width: 90vh;
+
+        }
+
+        h5{
+            position: relative;
+            font-size: 21px;
+            text-align: left;
+            color: #515151;
+            top: 230px;
+            left: -150px;
+            margin: 3%;
+            height: 5vh;
+            width: 45vh;
+            white-space: pre-line;
+            transition: 0.5s;
+            
+
+
+
+        
+        }
+
+        .jobinfo{
+
+            position: relative;
+            font-size: 21px;
+            text-align: left;
+            color: #515151;
+            top: 230px;
+            left: -150px;
+            margin: 3%;
+            height: 5vh;
+            width: 45vh;
+            white-space: pre-line;
+            transition: 0.5s;
+
+
+
+        }
+
+        #offer-title-detials1{
+
+            top: 20px;
+            left: 7px;
+            font-size: 23px;
+            color: #515151;
+            background-color: #e8c6ae;
+
+        }
+        
+
+
+
+        .babbysitter-info{
+            position: relative;
+            display: inline;
+            font-size: 21px;
+            text-align: left;
+            color: #515151;
+            top: 230px;
+            left: -20px;
+            margin: 3%;
+            height: 5vh;
+            width: 85vh;
+            transition: 0.5s;
+        
+        
+        }
+
+
+        .babbysitter-infoprofile{
+
+            position: relative;
+            display: inline;
+            font-size: 21px;
+            text-align: left;
+            color: #515151;
+            top: 20px;
+            left: -25px;
+            margin: 3%;
+            height: 5vh;
+            width: 85vh;
+            transition: 0.5s;
+        }
+
+
+        #infobs{
+
+            margin: 4%;
+            
+            
+
+
+
+        }
+
+      
+
+        #infobs1{
+
+            margin: 4%;
+            position:relative;
+            white-space: pre-line;
+            left: 30px;
+            top: -30px;
+            
+            
+
+        }
+
+        #underlinecontact{
+            text-decoration: underline;
+        }
+
+        h6{
+            position:absolute;
+            font-size: 20px;
+            height: 10%;
+            width: 80vh;
+            margin-top: -50%;
+            margin-left: 0%;
+            
+            border-radius: 10px;;
+            text-align: center;
+            white-space: pre-line;
+            transition: 0.5s;
+        
+        }
+
+        #bio{
+            position:absolute;
+            font-size: 20px;
+            height: 10%;
+            width: 80vh;
+            margin-top: -35%;
+            margin-left: 0%;
+            background-color:  #ECB78B;
+            border-radius: 10px;;
+            text-align: left;
+            white-space: pre-line;
+            transition: 0.5s;
+        
+        }
+
+        #bioprofile{
+
+            position:absolute;
+            font-size: 20px;
+            height: 10%;
+            width: 80vh;
+            margin-top: -90%;
+            margin-left: -5%;
+            border-radius: 10px;;
+            text-align: left;
+            white-space: pre-line;
+            transition: 0.5s;
+            z-index: 2;
+
+
+        }
+
+        .line2{
+            position:absolute;
+            top: 520px;
+            left: 80px;
+            color:#aa520b;
+            font-size: 13px;
+            text-decoration: underline;
+
+        }
+        .line2:hover {
+            color:#080400;
+            text-decoration: underline;
+        }
+
+        .container{
+            background-color: #ECB78B;
+        }
+
+        p{
+            
+            position:absolute;
+            margin-top: -24%;
+            margin-left: 20%;
+            font-size: 25px;
+            
+        }
+
+        iframe{
+            position:absolute;
+            margin-top: -18%;
+            margin-left: 18%;
+            width: 30% ;
+            height: 20%;
+        }
+
+        .button{
+
+            position: relative;
+            background-color:#A5B2A1;
+            text-align:justify;
+            transition: all 0.5s;
+            color:#515151;
+            font-family: fantasy;
+            margin: 6em;
+            padding: 20px 50px;
+            cursor:pointer;
+            font-size: 20px;
+            text-align: center;
+            top: 150px;
+            right: 10px;
+            border-radius: 20px;
+            box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+            cursor: pointer;
+            display: inline-block;
+            
+          
+        }
+
+
+            
+       
+
+        .button-babysitter{
+
+            position: relative;
+            background-color:#A5B2A1;
+            text-align:justify;
+            transition: all 0.5s;
+            color:#515151;
+            font-family: fantasy;
+            margin: 6em;
+            padding: 20px 50px;
+            cursor:pointer;
+            font-size: 20px;
+            text-align: center;
+            top: 570px;
+            right: 7px;
+            border-radius: 20px;
+            box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+            cursor: pointer;
+            display: inline-block;
+          
+        }
+
+    
+
+            
+     
+
+        .button-babysitterR2{
+
+            position: relative;
+            background-color:#A5B2A1;
+            text-align:justify;
+            transition: all 0.5s;
+            color:#515151;
+            font-family: fantasy;
+            margin: 1em;
+            padding: 10px 20px;
+            cursor:pointer;
+            font-size: 20px;
+            text-align: center;
+            top: 720px;
+            right: 230px;
+            border-radius: 20px;
+            box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+            cursor: pointer;
+            display: inline-block;
+            
+            
+          
+        }
+
+       
+
+        #offerbutton{
+
+            
+            top: 350px;
+            
+          
+        }
+       
+     
+
+
+

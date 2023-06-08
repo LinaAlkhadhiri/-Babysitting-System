@@ -1,0 +1,136 @@
+/*Header and footer style*/
+* {
+ margin:  0;
+ padding:  0;
+}
+
+body {
+    min-height:  100vh ; 
+	background-image: url('Images/wall.png'); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: fantasy;
+	
+}
+
+#logo{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.top{
+    left: 430px;
+    position: relative;
+    float: left;
+    margin-top: 70px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-family: fantasy;
+    color: #515151;
+    z-index: 5;
+    }
+
+.line{
+    color: #515151;
+	text-decoration:none;
+	text-align:center;    
+}
+
+.line:hover {
+    color:#EAB789;
+}
+
+#footer {  
+    background-color: #EAE8E3;
+    color:#515151 ;
+    position : sticky;
+    height: 170px;
+    text-align: center;
+    margin-top: 80%;
+}
+
+#Ctext{
+
+text-align: left;
+font-size: 32px;
+font-weight: bolder;
+position: relative;
+left: 35px;
+text-transform: uppercase;
+
+
+}
+
+.social-icon{
+    padding: 20px 30px;
+}
+
+.bottom{
+    left: 80px;
+	position: relative;
+	float: left;
+	padding-right: 155px;
+	padding-left: 155px;
+	font-family: fantasy;
+	color: #515151;
+	margin-top: 25px;   
+}
+
+.copyright{
+      
+    position: relative;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.13em;
+    margin-left: 400px;
+    margin-top: 3px;
+    color: #515151;
+}
+
+/* Ahad's */
+a{
+    text-decoration: none;
+    color: #515151;
+}
+
+.top:hover{
+    color:#EAB789; 
+}
+
+.subList{
+    display: none;
+    list-style: none;
+    width: 120px;
+    position: absolute;
+    top: 35px;
+    background-color: #A5B2A1;
+    border-radius: 5px;
+    padding: 0px;
+}
+
+.subList li{
+    padding: 4px 10px;
+    font-size: 20px;
+    border-bottom: 1px solid #BEDCDB;
+}
+
+.subList li a:hover { color:#EAB789;}
+
+.top:hover .subList{ display: block;}
+
+.line{
+	color: #515151;
+	text-decoration:none;
+    text-align:center;   
+}
+.line:hover {
+    color:#EAB789;
+}
+
+
+
+
+
